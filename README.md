@@ -1,2 +1,226 @@
-# algorithms-cpp
-Descriptive examples of data structures and algorithms in C++
+# Algorithms - Perfection through practice
+
+Descriptive code and explanation of data structures and algorithms in C++
+
+
+## Goals :
+1. Crisp and clean implementation of classic algorithm problems
+2. Consistent code convention across all the problems
+3. Keep it simple! Learn and grow together.
+
+
+## Conventions :
+1. The repository is organized as Topic - Subtopic -  Problem_ShortName. 
+2. Each Problem_ShortName folder is expected to contain following files 
+ - One solution file
+ - One Problem_ShortName.in file (input for algorithm demo)
+ - One Problem_ShortName.out file (output for algorithm demo)
+ - One Problem_ShortName.md file per algorithm with easy to understand explanation of solution.
+ - Make sure the markdown file explains the input and output file as well and lists the command to compile and run the example. 
+
+
+## List of Implementations
+
+-  array
+    -  circular_counter
+    -  flatten
+    -  garage
+    -  longest_non_repeat
+    -  merge_intervals
+    -  missing_ranges
+    -  plus_one
+    -  rotate_array
+    -  summary_ranges
+    -  three_sum
+    -  two_sum
+-  backtrack
+    -  general_solution.md
+    -  anagram
+    -  array_sum_combinations
+    -  combination_sum
+    -  expression_add_operators
+    -  factor_combinations
+    -  generate_abbreviations
+    -  generate_parenthesis
+    -  letter_combination
+    -  palindrome_partitioning
+    -  pattern_match
+    -  permute
+    -  permute_unique
+    -  subsets
+    -  subsets_unique
+    -  all_factors
+    -  count_islands
+    -  sudoku_solver
+-  bit
+    -  bytes_int_conversion
+    -  count_ones
+    -  find_missing_number
+    -  power_of_two
+    -  reverse_bits
+    -  single_number2
+    -  single_number
+    -  subsets
+    -  add_without_operator
+-  dp
+    -  buy_sell_stock
+    -  climbing_stairs
+    -  combination_sum
+    -  house_robber
+    -  knapsack
+    -  longest_increasing
+    -  max_product_subarray
+    -  max_subarray
+    -  num_decodings
+    -  regex_matching
+    -  word_break
+-  graph
+    -  clone_graph
+    -  cycle_detection
+    -  find_path
+    -  graph
+    -  traversal
+-  heap
+    -  merge_sorted_k_lists
+    -  skyline
+    -  sliding_window_max
+-  linkedlist
+    -  add_two_numbers
+    -  copy_random_pointer
+    -  delete_node
+    -  first_cyclic_node
+    -  is_cyclic
+    -  is_palindrome
+    -  kth_to_last
+    -  linkedlist
+    -  remove_duplicates
+    -  reverse
+    -  rotate_list
+    -  swap_in_pairs
+-  map
+    -  hashtable
+    -  longest_common_subsequence
+    -  randomized_set
+    -  valid_sudoku
+-  math
+    -  extended_gcd
+    -  gcd/lcm
+    -  prime_test
+    -  primes_sieve_of_eratosthenes
+    -  generate_strobogrammtic
+    -  is_strobogrammatic
+    -  nth_digit
+    -  rabin_miller
+    -  rsa
+    -  sqrt_precision_factor
+    -  pythagoras
+-  matrix
+    -  matrix_rotation.txt
+    -  bomb_enemy
+    -  rotate_image
+    -  sparse_dot_vector
+    -  sparse_mul
+    -  spiral_traversal
+    -  count_paths
+-  queue
+    -  max_sliding_window
+    -  moving_average
+    -  queue
+    -  reconstruct_queue
+    -  zigzagiterator
+-  search
+    -  binary_search
+    -  count_elem
+    -  first_occurance
+    -  last_occurance
+-  set
+    -  randomized_set
+-  sort
+    -  bubble_sort
+    -  comb_sort
+    -  counting_sort
+    -  heap_sort
+    -  insertion_sort
+    -  meeting_rooms
+    -  merge_sort
+    -  quick_sort
+    -  selection_sort
+    -  sort_colors
+    -  topsort
+    -  wiggle_sort
+-  stack
+    -  longest_abs_path
+    -  simplify_path
+    -  stack
+    -  valid_parenthesis
+-  string
+    -  add_binary
+    -  breaking_bad
+    -  decode_string
+    -  encode_decode
+    -  group_anagrams
+    -  int_to_roman
+    -  is_palindrome
+    -  license_number
+    -  make_sentence
+    -  multiply_strings
+    -  one_edit_distance
+    -  rabin_karp
+    -  reverse_string
+    -  reverse_vowel
+    -  reverse_words
+    -  roman_to_int
+    -  word_squares
+-  tree
+    -  segment-tree
+        -  segment_tree
+    -  binary_tree_paths
+    -  bintree2list
+    -  bst
+        -  array2bst
+        -  bst_closest_value
+        -  BSTIterator
+        -  delete_node
+        -  is_bst
+        -  kth_smallest
+        -  lowest_common_ancestor
+        -  predecessor
+        -  serialize_deserialize
+        -  successor
+        -  unique_bst
+    -  deepest_left
+    -  invert_tree
+    -  is_balanced
+    -  is_subtree
+    -  is_symmetric
+    -  longest_consecutive
+    -  lowest_common_ancestor
+    -  max_height
+    -  max_path_sum
+    -  min_height
+    -  path_sum2
+    -  path_sum
+    -  pretty_print
+    -  same_tree
+    -  traversal
+        -  inorder
+        -  level_order
+        -  zigzag
+    -  tree
+    -  trie
+        -  add_and_search
+        -  trie
+-  union-find
+    -  count_islands
+
+## List of Designs
+
+-  design
+    -  LRUcache
+    -  alarm_system
+    -  all_o_one_ds
+    -  excel_table
+    -  nearby_drivers
+    -  ride_sharing
+    -  task_runner
+    -  twitter_feeds
