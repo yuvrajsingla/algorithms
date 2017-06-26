@@ -1,6 +1,6 @@
 # Algorithms - Perfection through practice
 
-Descriptive code and explanation of data structures and algorithms in C++
+Descriptive code and explanation of popular data structure and algorithm problems in C++
 
 
 ## Goals :
@@ -12,11 +12,11 @@ Descriptive code and explanation of data structures and algorithms in C++
 ## Conventions :
 1. The repository is organized as Topic - Subtopic -  Problem_ShortName. 
 2. Each Problem_ShortName folder is expected to contain following files 
- - One solution file
- - One Problem_ShortName.in file (input for algorithm demo)
- - One Problem_ShortName.out file (output for algorithm demo)
- - One Problem_ShortName.md file per algorithm with easy to understand explanation of solution.
- - Make sure the markdown file explains the input and output file as well and lists the command to compile and run the example. 
+    - One solution file
+    - One Problem_ShortName.in file (input for algorithm demo)
+    - One Problem_ShortName.out file (output for algorithm demo)
+    - One Problem_ShortName.md file per algorithm with easy to understand explanation of solution.
+    - Make sure the markdown file explains the input and output file as well and lists the command to compile and run the example. 
 
 
 ## List of Implementations
@@ -212,15 +212,8 @@ Descriptive code and explanation of data structures and algorithms in C++
         -  trie
 -  union-find
     -  count_islands
-
-## List of Designs
-
--  design
+-  design problems
     -  LRUcache
     -  alarm_system
-    -  all_o_one_ds
-    -  excel_table
-    -  nearby_drivers
-    -  ride_sharing
     -  task_runner
     -  twitter_feeds
