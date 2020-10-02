@@ -44,3 +44,43 @@ int main(){
         
     return 0;
 }
+
+
+//other similar problem code(function code)...
+    //using stack
+//Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
+//Valid operators are +, -, *, /. Each operand may be an integer or another expression.
+/*Input 1:
+    A =   ["2", "1", "+", "3", "*"]
+Output 1:
+    9
+Explaination 1:
+    starting from backside:
+    *: ( )*( )
+    3: ()*(3)
+    +: ( () + () )*(3)
+    1: ( () + (1) )*(3)
+    2: ( (2) + (1) )*(3)
+    ((2)+(1))*(3) = 9*/
+
+int Solution::evalRPN(vector<string> &A) {int n=A.size();stack<int> q;
+for(int i=0;i<n;i++){
+    if(A[i]=="+" || A[i]=="-" || A[i]=="*" || A[i]=="/"){
+        int f=q.top();q.pop();
+        int s=q.top();q.pop();
+        if(A[i]=="+") q.push(f+s);if(A[i]=="-") q.push(s-f);if(A[i]=="*") q.push(f*s);
+        if(A[i]=="/") q.push(s/f);
+        
+    }
+    else q.push(stoi(A[i]));
+}
+return q.top();
+}
+
+
+
+    
+    
+    
+    
